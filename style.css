@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(#e0ffe0, #f0f0ff);
+  background: linear-gradient(#ffffff, #ffed88);
   color: #333;
 }
 
@@ -36,7 +36,7 @@ header p {
   text-align: center;
   padding: 30px;
   font-size: 1.2em;
-  background-color: #fff8dc;
+  background-color: #f3dc7f;
 }
 
 .cards {
@@ -45,13 +45,13 @@ header p {
   justify-content: center;
   padding: 40px 20px;
   gap: 30px;
-  background: #024908;
+  background: #5e883b;
 }
 
 .card {
-  background: rgb(194, 224, 154);
+  background: rgb(172, 221, 149);
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 16px rgba(201, 116, 116, 0.15);
   width: 300px;
   text-align: center;
   padding: 20px;
@@ -94,7 +94,7 @@ footer {
 .rodape-centralizado {
   position: relative;
   background: #3a6b35;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px 40px;
 }
