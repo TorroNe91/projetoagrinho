@@ -45,11 +45,11 @@ header p {
   justify-content: center;
   padding: 40px 20px;
   gap: 30px;
-  background: #f7f7f7;
+  background: #024908;
 }
 
 .card {
-  background: white;
+  background: rgb(194, 224, 154);
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
   width: 300px;
@@ -132,4 +132,50 @@ footer {
 
 .acessibilidade button:hover {
   background-color: #2e4f29;
+}
+.descricao h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+main img.ampliada {
+  margin-bottom: 20px;
+}
+main img.ampliada {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+
+}main .zoom:hover img {
+  transform: scale(1.03);
+
+}
+.ampliada {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+  display: block;
+  margin: 20px auto;
+
+}
+.ampliada:active {
+  transform: scale(1.6);
+  cursor: zoom-out;
+  z-index: 999;
+
+}
+main {
+  padding: 0 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.descricao h2 {
+  margin-left: 30px;
+
 }
